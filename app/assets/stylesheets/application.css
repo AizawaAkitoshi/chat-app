@@ -17,3 +17,47 @@
  * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  display: flex;
+}
+
+.side_bar {
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.main_chat {
+  width: calc(100vw - 300px);
+  background-color: #FFFFFF;
+}
+.side_top {
+  height: 100px;
+  background-color: #253141;
+  padding:0px 20px;
+}
+
+.side_list {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding:0px 20px;
+}
+.chat_top {
+  height: 100px;
+  background-color: #FFFFFF;
+  width: calc(100vw - 300px);
+  padding:0px 40px;
+}
+.chat_main {
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  width: calc(100vw - 300px);
+  padding-top: 46px 40px 0px ;
+}
+.chat_foot {
+  height: 90px;
+  background-color: #DDDDDD;
+  width: calc(100vw - 300px);
+  padding:20px 40px;
+}
