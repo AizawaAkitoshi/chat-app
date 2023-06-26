@@ -36,13 +36,35 @@
   height: 100px;
   background-color: #253141;
   padding:0px 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side_top h2 {
+  font-size: 16px;
+  color: #FAFAFA;
+} 
+.make_chat_btn {
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration-line: none;
 }
 
 .side_list {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding:0px 20px;
+  overflow: scroll;
 }
+.chat_rooms {
+  color: #FFFFFF;
+  display:flex;
+  flex-direction:column;
+  margin:20px 0px 40px 0px;
+}
+
 .chat_top {
   height: 100px;
   background-color: #FFFFFF;
