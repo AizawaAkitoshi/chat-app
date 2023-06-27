@@ -8,8 +8,7 @@
       <%# <%= link_to 'ボタンテキスト', new_page_path, class: 'button-class' %>
     </div>
     <div class="side_list">
-    <a href="#" class="chat_rooms">techroom1</a>
-    <a href="#" class="chat_rooms">techroom2</a>
+    <%= link_to current_user.name, edit_user_path(current_user) %>
     </div>
   </div>
   <div class="chat" >
