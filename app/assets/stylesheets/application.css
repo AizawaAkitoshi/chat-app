@@ -58,8 +58,13 @@
   padding:0px 20px;
   overflow: scroll;
 }
-.chat_rooms {
+.room-name a {
   color: #FFFFFF;
+  line-height: 40px;
+  text-decoration-line: none;
+}
+
+.chat_rooms {
   display:flex;
   flex-direction:column;
   margin:20px 0px 40px 0px;
