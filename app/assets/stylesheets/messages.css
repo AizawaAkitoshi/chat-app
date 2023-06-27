@@ -1,3 +1,62 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.side_bar {
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.main_chat {
+  width: calc(100vw - 300px);
+  background-color: #FFFFFF;
+}
+.side_top {
+  height: 100px;
+  background-color: #253141;
+  padding:0px 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side_top h2 {
+  font-size: 16px;
+  color: #FAFAFA;
+} 
+.make_chat_btn {
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: 1px solid lightblue;
+  text-decoration-line: none;
+}
+
+.side_list {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding:0px 20px;
+  overflow: scroll;
+}
+.room-name a {
+  color: #FFFFFF;
+  line-height: 40px;
+  text-decoration-line: none;
+}
+
+.chat_rooms {
+  display:flex;
+  flex-direction:column;
+  margin:20px 0px 40px 0px;
+}
+
+
+
 .form {
   background-color: #DDDDDD;
   height: 90px;
