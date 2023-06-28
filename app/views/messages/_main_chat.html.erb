@@ -3,19 +3,11 @@
       <h2>techroom1</h2>
       <a href="#" class="end_chat_btn">チャットを終了する</a>
     </div>  
-    <div class="chat_main">
-      <div class="chat_box">
-        <div class = "chat_name"><a>Tom</a>
-          <span class = "chat-time">2020/3/31(wed) 12:43:30</span>
-        </div>
-        <div class = "chat_text"><p>Good Morning</p></div>
-      </div>  
-      <div class="chat_box">
-        <div class = "chat_name"><a>Tom</a>
-          <span class = "chat-time">2020/3/31(wed) 12:43:30</span>
-        </div>
-        <div class = "chat_text"><p>Good Morning</p></div>
-      </div>  
+
+    <div class="messages">
+      
+      <%= render partial: 'message', collection: @messages %>
+      
     </div>
     <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
       <div class="form-input">
